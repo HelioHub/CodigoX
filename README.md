@@ -159,6 +159,21 @@ Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de 
 	separando componentes ou camadas individuais dentro de um aplicativo para permitir que cada parte evolua, 
 	seja dimensionada e mantida independentemente uma da outra.
 
+	````
+	Prós
+	````
+	Princípio Aberto/Fechado: Você pode introduzir um novo comportamento que possa trabalhar com objetos de diferentes classes sem alterar essas classes.
+	Princípio de responsabilidade única: Você pode mover várias versões do mesmo comportamento para a mesma classe.
+	Um objeto visitante pode acumular algumas informações úteis ao trabalhar com vários objetos. 
+	Isso pode ser útil quando você deseja percorrer alguma estrutura complexa de objetos, como uma árvore de objetos, e aplicar o visitante a cada objeto dessa estrutura.
+
+	````
+	Contras
+	````
+	Você precisa atualizar todos os visitantes cada vez que uma classe é adicionada ou removida da hierarquia de elementos.
+	Os visitantes podem não ter acesso necessário aos campos e métodos particulares dos elementos com os quais devem trabalhar.
+
+
 ![## Visitor Pattern](https://github.com/HelioHub/CodigoX/blob/main/images/VisitorPattern.png)
 
 ### Objetivo do Visitor Pattern
@@ -167,4 +182,31 @@ Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de 
 	em vez de tentar integrá-lo às classes existentes. 
 	O objeto original que tinha que executar o comportamento agora é passado para um dos métodos do visitante como argumento, 
 	fornecendo ao método acesso a todos os dados necessários contidos no objeto.
+
+### Cenario de uso
+
+	````
+	Regras de Preço de Atacado, Varejo e Outros de Produtos Hospitalares
+	````
+	
+	Criar possibilidade de implementar Regras de Preços diferenciados para cada situação sem usar um 'IF'.
+	Aplicando o Padrão de Projeto Visitor, de forma escalável, eficiente e seguro.
+	Tem um classe visitante que acessa uma classe visitada e as regras dos preços está na classe visitante.
+
+	````
+	Modelo do Visitor Pattern
+	````
+	
+![## Visitor Model](https://github.com/HelioHub/CodigoX/blob/main/images/ModelVisitor.png)
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
 

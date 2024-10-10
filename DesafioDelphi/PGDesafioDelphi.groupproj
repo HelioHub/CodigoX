@@ -6,6 +6,9 @@
         <Projects Include="ProjetoMVC\ProjetoMVC.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="VisitorPattern\Visitor.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -23,14 +26,23 @@
     <Target Name="ProjetoMVC:Make">
         <MSBuild Projects="ProjetoMVC\ProjetoMVC.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Visitor">
+        <MSBuild Projects="VisitorPattern\Visitor.dproj"/>
+    </Target>
+    <Target Name="Visitor:Clean">
+        <MSBuild Projects="VisitorPattern\Visitor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Visitor:Make">
+        <MSBuild Projects="VisitorPattern\Visitor.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="ProjetoMVC"/>
+        <CallTarget Targets="ProjetoMVC;Visitor"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="ProjetoMVC:Clean"/>
+        <CallTarget Targets="ProjetoMVC:Clean;Visitor:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="ProjetoMVC:Make"/>
+        <CallTarget Targets="ProjetoMVC:Make;Visitor:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

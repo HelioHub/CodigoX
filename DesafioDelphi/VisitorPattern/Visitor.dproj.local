@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/09/27 12:09:43.000.095,=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 07:11:10.427,=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 07:12:48.686,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dfm=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/10/10 07:12:48.686,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.pas=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 07:13:33.186,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.dfm=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dfm</Transaction>
+    <Transaction>2024/10/10 07:13:33.186,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.pas</Transaction>
+    <Transaction>2024/10/10 07:14:18.374,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\ViewVisitor.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.pas</Transaction>
+    <Transaction>2024/10/10 07:14:18.374,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\ViewVisitor.dfm=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.dfm</Transaction>
+    <Transaction>2024/10/10 07:14:25.456,C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Visitor.dproj=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/10/10 07:15:07.099,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dproj=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Visitor.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
