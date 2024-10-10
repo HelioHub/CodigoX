@@ -102,12 +102,17 @@ O que você entende por arquitetura MVC?
 
 ### Exemplos no DELPHI:
 	````
-	Exemplo usando MVC do Delphi.
+	Exemplo usando MVC no Delphi.
+	
+    Embarcadero® Delphi 12 Version 29.0.51961.7529 
+    Copyright © 2024 Embarcadero Technologies, Inc. All Rights Reserved.	
+	
+	ProjetoMVC.exe
 	````
 ![## MVC 3](https://github.com/HelioHub/CodigoX/blob/main/images/ImagemMVC3.png)
 
 	````
-	Usando FrameWork de terceiro, chamado DMVC
+	FrameWork de terceiro, chamado DMVC
 	````
 	Criado por Daniele Teti
 	GitHub: https://github.com/danieleteti/delphimvcframework

@@ -1,0 +1,16 @@
+program ProjetoMVC;
+
+uses
+  Forms,
+  unitCadastro in 'C:\CodigoX\MVC\ProjetoMVC-AndreCelestino\ProjetoMVC-AndreCelestino\View\unitCadastro.pas' {frmCadastroClientes},
+  classeCliente in 'C:\CodigoX\MVC\ProjetoMVC-AndreCelestino\ProjetoMVC-AndreCelestino\Model\classeCliente.pas',
+  controleCliente in 'C:\CodigoX\MVC\ProjetoMVC-AndreCelestino\ProjetoMVC-AndreCelestino\Controller\controleCliente.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmCadastroClientes, frmCadastroClientes);
+  Application.Run;
+end.
