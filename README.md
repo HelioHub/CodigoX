@@ -1,6 +1,6 @@
 # Desafio DELPHI - TOTVS Hospitalidade - Daine Codigo.X
 
-	Desenvolvimento de exemplos em DELPHI para consolidar conceitos - Hélio Marques
+Desenvolvimento de exemplos em DELPHI para consolidar conceitos - Hélio Marques
 
 ![## MVC 1](https://github.com/HelioHub/CodigoX/blob/main/images/Desafio.png)
 
@@ -21,7 +21,7 @@
 	git branch -M main
 	git push -u origin main
 	
-## 1ª Questão
+## Questão 1
 
 O que você entende por arquitetura MVC?
 
@@ -111,20 +111,60 @@ O que você entende por arquitetura MVC?
 	````
 ![## MVC 3](https://github.com/HelioHub/CodigoX/blob/main/images/ImagemMVC3.png)
 
+
 	````
 	FrameWork de terceiro, chamado DMVC
 	````
+	
 	Criado por Daniele Teti
 	GitHub: https://github.com/danieleteti/delphimvcframework
 
 ### Nota: 
 	Existem outros padrões de Arquitetura de Software:
-		Pipeline;
-		Blackboard;
-		Microkernel e 
-		Reflection.
+		Pipeline ...
+		Blackboard ...
+		Microkernel ...
+		Reflection ...
+		Layers (camadas) ...
+		Client-server (cliente-servidor) ...
+		Microservices (microsserviços) ...
+		Pipes-and-filters (PF) ...
+		Peer-to-Peer (P2P) ...
+		Service-Oriented Architecture (SOA) ...
+		Publish-Subscribe (Pub/Sub).		
+		
 	No entanto, o MVC é o mais utilizado pelos desenvolvedores em função da objetividade.
 
-## 2ª Questão
+## Questão 2
 
+Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de uso.
+
+### Padrão de Projeto
+
+	Visitor Pattern
+
+### Conceito Visitor Pattern
+
+	Em programação orientada a objetos e engenharia de software, 
+	o Visitor Pattern é um padrão de projeto comportamental. 
+	Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. 
+	O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera.
+
+    Isto é, permite separar algoritmos dos objetos nos quais eles operam.	
+
+	Reduz a complexidade de implementação de regras de negócios no Sistema, 
+	evitando utilização de comandos condicionais como If e Case.
+
+	Cria Sistema Desacoplado, 
+	separando componentes ou camadas individuais dentro de um aplicativo para permitir que cada parte evolua, 
+	seja dimensionada e mantida independentemente uma da outra.
+
+![## Visitor Pattern](https://github.com/HelioHub/CodigoX/blob/main/images/VisitorPattern.png)
+
+### Objetivo do Visitor Pattern
+
+	O padrão Visitor objetiva que se coloque o novo comportamento em uma classe separada chamada visitor, 
+	em vez de tentar integrá-lo às classes existentes. 
+	O objeto original que tinha que executar o comportamento agora é passado para um dos métodos do visitante como argumento, 
+	fornecendo ao método acesso a todos os dados necessários contidos no objeto.
 

@@ -1,0 +1,9 @@
+
+Fundamentos principais de Programação:
+--------------------------------------
+Pilares fundamentais para desenvolvimento de bom software
+
+1) PO
+2) Clean Code
+3) MVC
+4) Design Patterns
