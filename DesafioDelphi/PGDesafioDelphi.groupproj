@@ -9,6 +9,9 @@
         <Projects Include="VisitorPattern\Visitor.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="ProjetoAPICEP\ProjetoAPICEP.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -35,14 +38,23 @@
     <Target Name="Visitor:Make">
         <MSBuild Projects="VisitorPattern\Visitor.dproj" Targets="Make"/>
     </Target>
+    <Target Name="ProjetoAPICEP">
+        <MSBuild Projects="ProjetoAPICEP\ProjetoAPICEP.dproj"/>
+    </Target>
+    <Target Name="ProjetoAPICEP:Clean">
+        <MSBuild Projects="ProjetoAPICEP\ProjetoAPICEP.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjetoAPICEP:Make">
+        <MSBuild Projects="ProjetoAPICEP\ProjetoAPICEP.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="ProjetoMVC;Visitor"/>
+        <CallTarget Targets="ProjetoMVC;Visitor;ProjetoAPICEP"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="ProjetoMVC:Clean;Visitor:Clean"/>
+        <CallTarget Targets="ProjetoMVC:Clean;Visitor:Clean;ProjetoAPICEP:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="ProjetoMVC:Make;Visitor:Make"/>
+        <CallTarget Targets="ProjetoMVC:Make;Visitor:Make;ProjetoAPICEP:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

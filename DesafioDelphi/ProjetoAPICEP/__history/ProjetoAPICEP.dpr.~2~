@@ -1,0 +1,16 @@
+program ProjetoAPICEP;
+
+uses
+  Vcl.Forms,
+  View.APICEP in 'View.APICEP.pas' {Form1},
+  Controller.APICEP in 'Controller.APICEP.pas' {DataModule1: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.Run;
+end.

@@ -210,9 +210,39 @@ Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de 
 	Implementação do Visitor Pattern no DELPHI - Projeto Visitor.exe
 	````
 
-![## Visitor Model](https://github.com/HelioHub/CodigoX/blob/main/images/ImplVisitor.png)
+![## Projeto Visitor](https://github.com/HelioHub/CodigoX/blob/main/images/ImplVisitor.png)
 
 ## Questão 3
+
+	````
+	Implementação de API para acesso a dados do CEP - ProjetoAPICEP.exe
+	Feito VLC Client-Server por que DELPHI 12 Community Edition não tem DATASNAP
+	````
+
+![## Projeto API CEP](https://github.com/HelioHub/CodigoX/blob/main/images/APICEP.png)
+
+## Projeto DATASNAP REST JSON acessando banco de dados SQL SERVER. 
+
+	````
+	Implementação de Aplicação DATASNAP REST JSON acessando banco de dados SQL SERVER.
+	Exemplifica a utilização do DUnit: An Xtreme testing framework.
+	Exemplifica a utilização do FastReport
+	Delphi XE6.
+	````
+	
+	https://github.com/HelioHub/OrderSystem
+
+## Projeto DATASNAP REST JSON acessando banco de dados PostGreSQL. 
+
+	````
+	Implementação de Aplicação DATASNAP REST JSON acessando banco de dados PostGreSQL.
+	Delphi XE6.
+	````
+	
+	https://github.com/HelioHub/cadpessoas
+
+
+	
 
 	
 	
