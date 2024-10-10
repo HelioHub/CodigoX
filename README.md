@@ -162,16 +162,21 @@ Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de 
 	````
 	Prós
 	````
-	Princípio Aberto/Fechado: Você pode introduzir um novo comportamento que possa trabalhar com objetos de diferentes classes sem alterar essas classes.
-	Princípio de responsabilidade única: Você pode mover várias versões do mesmo comportamento para a mesma classe.
-	Um objeto visitante pode acumular algumas informações úteis ao trabalhar com vários objetos. 
-	Isso pode ser útil quando você deseja percorrer alguma estrutura complexa de objetos, como uma árvore de objetos, e aplicar o visitante a cada objeto dessa estrutura.
+	> Princípio Aberto/Fechado: Você pode introduzir um novo comportamento que possa 
+	  trabalhar com objetos de diferentes classes sem alterar essas classes.
+	> Princípio de responsabilidade única: Você pode mover várias versões do mesmo comportamento 
+	  para a mesma classe.
+	> Um objeto visitante pode acumular algumas informações úteis ao trabalhar com vários objetos. 
+	  Isso pode ser útil quando você deseja percorrer alguma estrutura complexa de objetos, 
+	  como uma árvore de objetos, e aplicar o visitante a cada objeto dessa estrutura.
 
 	````
 	Contras
 	````
-	Você precisa atualizar todos os visitantes cada vez que uma classe é adicionada ou removida da hierarquia de elementos.
-	Os visitantes podem não ter acesso necessário aos campos e métodos particulares dos elementos com os quais devem trabalhar.
+	> Você precisa atualizar todos os visitantes cada vez que uma classe é adicionada 
+	  ou removida da hierarquia de elementos.
+	> Os visitantes podem não ter acesso necessário aos campos e métodos particulares 
+	  dos elementos com os quais devem trabalhar.
 
 
 ![## Visitor Pattern](https://github.com/HelioHub/CodigoX/blob/main/images/VisitorPattern.png)
@@ -206,6 +211,9 @@ Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de 
 	````
 
 ![## Visitor Model](https://github.com/HelioHub/CodigoX/blob/main/images/ImplVisitor.png)
+
+## Questão 3
+
 	
 	
 	
