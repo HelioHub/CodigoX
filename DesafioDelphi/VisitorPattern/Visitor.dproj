@@ -127,6 +127,10 @@
             <Form>FormVisitorPattern</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="Model\Interfaces.pas"/>
+        <DCCReference Include="Model\Item.pas"/>
+        <DCCReference Include="Model\Item.Regra.Varejos.pas"/>
+        <DCCReference Include="Model\Item.Regra.Atacado.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -1110,7 +1114,7 @@
                 <Platform value="Win32">True</Platform>
                 <Platform value="Win64">True</Platform>
             </Platforms>
-            <ModelSupport>True</ModelSupport>
+            <ModelSupport>False</ModelSupport>
         </BorlandProject>
         <ProjectFileVersion>12</ProjectFileVersion>
     </ProjectExtensions>

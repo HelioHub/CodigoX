@@ -189,12 +189,14 @@ Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de 
 	Regras de Preço de Atacado, Varejo e Outros de Produtos Hospitalares
 	````
 	
-	Criar possibilidade de implementar Regras de Preços diferenciados para cada situação sem usar um 'IF'.
-	Aplicando o Padrão de Projeto Visitor, de forma escalável, eficiente e seguro.
-	Tem um classe visitante que acessa uma classe visitada e as regras dos preços está na classe visitante.
+	> Criar possibilidade de implementar Regras de Preços diferenciados para cada situação sem usar um 'IF'.
+	> Aplicando o Padrão de Projeto Visitor, de forma 
+	  escalável (capacidade de continuar a funcionar bem quando seu contexto é alterado), 
+	  desacoplado, eficiente e seguro.
+	> Tem um classe visitante que acessa uma classe visitada e as regras dos preços está na classe visitante.
 
 	````
-	Modelo do Visitor Pattern
+	Modelo do Visitor Pattern gerado pelo DELPHI 
 	````
 	
 ![## Visitor Model](https://github.com/HelioHub/CodigoX/blob/main/images/ModelVisitor.png)

@@ -1,0 +1,21 @@
+unit Interfaces;
+
+interface
+
+type
+
+  iItem = interface
+    ['{617A4FC6-C646-407E-AC55-862291D2F90B}']
+    function SetPrecoUnitario(Value: Currency) : iItem;
+  end;
+
+  iItemRegras = interface
+    ['{18818B84-D529-41C7-81F2-7C7E0040B323}']
+    function PrecoVenda : Currency;
+    function PrecoPromocao : Currency;
+  end;
+
+
+implementation
+
+end.

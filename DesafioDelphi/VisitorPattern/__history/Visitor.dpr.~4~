@@ -1,0 +1,16 @@
+program Visitor;
+
+uses
+  Vcl.Forms,
+  ViewVisitor in 'View\ViewVisitor.pas' {FormVisitorPattern},
+  Interfaces in 'Model\Interfaces.pas',
+  Item in 'Model\Item.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormVisitorPattern, FormVisitorPattern);
+  Application.Run;
+end.
