@@ -1,0 +1,36 @@
+unit ViewVisitor;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, Vcl.Mask,
+  Vcl.ExtCtrls, Interfaces;
+
+type
+  TFormVisitorPattern = class(TForm)
+    lblTitulo: TLabel;
+    Panel: TPanel;
+    lblTipoVenda: TLabel;
+    Bevel: TBevel;
+    lblInfo1: TLabel;
+    lblInfo2: TLabel;
+    btnPrecoaVista: TBitBtn;
+    btnPrecoPromocional: TBitBtn;
+    ComboBox1: TComboBox;
+  private
+    { Private declarations }
+    FItem : iItem;
+    function PrecoTipoVenda : iVisitor;
+  public
+    { Public declarations }
+  end;
+
+var
+  FormVisitorPattern: TFormVisitorPattern;
+
+implementation
+
+{$R *.dfm}
+
+end.

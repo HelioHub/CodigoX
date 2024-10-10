@@ -3,22 +3,22 @@
 	<Transactions>
     <Transaction>2024/09/27 12:09:43.000.095,=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/10/10 07:11:10.000.427,=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 07:12:48.000.686,C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.pas</Transaction>
-    <Transaction>2024/10/10 07:12:48.000.686,C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dfm</Transaction>
-    <Transaction>2024/10/10 07:13:33.000.186,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.pas</Transaction>
-    <Transaction>2024/10/10 07:13:33.000.186,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dfm=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.dfm</Transaction>
-    <Transaction>2024/10/10 07:14:18.000.374,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.dfm=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\ViewVisitor.dfm</Transaction>
-    <Transaction>2024/10/10 07:14:18.000.374,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\ViewVisitor.pas</Transaction>
-    <Transaction>2024/10/10 07:14:25.000.456,C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Visitor.dproj</Transaction>
-    <Transaction>2024/10/10 07:15:07.000.099,C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Visitor.dproj=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dproj</Transaction>
-    <Transaction>2024/10/10 07:50:55.067,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 07:51:33.720,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Interfaces.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 08:05:29.044,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Interfaces.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Interfaces.pas</Transaction>
-    <Transaction>2024/10/10 08:08:09.381,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 08:08:44.912,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Item.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 08:56:33.428,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 08:57:27.329,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Item.Regra.Varejos.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 09:22:53.525,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
-    <Transaction>2024/10/10 09:23:09.257,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Item.Regra.Atacado.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 07:12:48.000.686,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dfm=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/10/10 07:12:48.000.686,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.pas=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 07:13:33.000.186,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.pas</Transaction>
+    <Transaction>2024/10/10 07:13:33.000.186,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.dfm=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dfm</Transaction>
+    <Transaction>2024/10/10 07:14:18.000.374,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\ViewVisitor.dfm=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.dfm</Transaction>
+    <Transaction>2024/10/10 07:14:18.000.374,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\ViewVisitor.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\View\Visitor.pas</Transaction>
+    <Transaction>2024/10/10 07:14:25.000.456,C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Visitor.dproj=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/10/10 07:15:07.000.099,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Visitor.dproj=C:\Users\hislindo\Documents\Embarcadero\Studio\Projects\Visitor.dproj</Transaction>
+    <Transaction>2024/10/10 07:50:55.000.067,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 07:51:33.000.720,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Interfaces.pas</Transaction>
+    <Transaction>2024/10/10 08:05:29.000.044,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Interfaces.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Interfaces.pas</Transaction>
+    <Transaction>2024/10/10 08:08:09.000.381,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 08:08:44.000.912,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Item.pas</Transaction>
+    <Transaction>2024/10/10 08:56:33.000.428,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 08:57:27.000.329,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Item.Regra.Varejos.pas</Transaction>
+    <Transaction>2024/10/10 09:22:53.000.525,=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas</Transaction>
+    <Transaction>2024/10/10 09:23:09.000.257,C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Unit1.pas=C:\HelioMarques\CodigoX\DesafioDelphi\VisitorPattern\Model\Item.Regra.Atacado.pas</Transaction>
   </Transactions>
 </BorlandProject>

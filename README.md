@@ -201,8 +201,11 @@ Escolha um padrão de projeto e escreva seu conceito, objetivo e um cenário de 
 	
 ![## Visitor Model](https://github.com/HelioHub/CodigoX/blob/main/images/ModelVisitor.png)
 	
-	
-	
+	````
+	Implementação do Visitor Pattern no DELPHI - Projeto Visitor.exe
+	````
+
+![## Visitor Model](https://github.com/HelioHub/CodigoX/blob/main/images/ImplVisitor.png)
 	
 	
 	

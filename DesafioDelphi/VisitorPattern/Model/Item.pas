@@ -19,6 +19,7 @@ Type
       function PrecoPromocao : Currency;
       function Accept(Value : iVisitor) : iItemRegras;
       function Visitor: iVisitor;
+      function Regras : iVisitable;
   end;
 
 implementation
@@ -75,5 +76,10 @@ begin
   Result := FVisitor.Visit(Self).PrecoVenda;
 end;
 
+
+function TModelItem.Regras: iVisitable;
+begin
+  Result := Self;
+end;
 
 end.

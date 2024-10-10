@@ -4,11 +4,13 @@ interface
 
 type
   iVisitor = interface;
+  iVisitable = interface;
 
   iItem = interface
     ['{617A4FC6-C646-407E-AC55-862291D2F90B}']
     function SetPrecoUnitario(Value: Currency) : iItem;
     function PrecoUnitario : Currency;
+    function Regras : iVisitable;
   end;
 
   iItemRegras = interface
