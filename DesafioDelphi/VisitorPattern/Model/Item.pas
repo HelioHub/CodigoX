@@ -18,6 +18,7 @@ Type
       function PrecoVenda : Currency;
       function PrecoPromocao : Currency;
       function Accept(Value : iVisitor) : iItemRegras;
+      function Visitor: iVisitor;
   end;
 
 implementation
@@ -34,7 +35,7 @@ end;
 
 constructor TModelItem.Create;
 begin
-  FVisitor := TModelItemRegraVarejo.New;
+  FVisitor := TModelItemRegraVarejo.New.Visitor;
 end;
 
 destructor TModelItem.Destroy;
@@ -52,6 +53,11 @@ function TModelItem.SetPrecoUnitario(Value: Currency) : iItem;
 begin
   Result := Self;
   FPrecoUnitario := Value;
+end;
+
+function TModelItem.Visitor: iVisitor;
+begin
+  Result := FVisitor;
 end;
 
 function TModelItem.PrecoPromocao: Currency;
